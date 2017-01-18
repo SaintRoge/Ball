@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Ball
+GenericName=Ball Physical Game
+
+Exec=Ball
+Path=/opt/Ball/
+Terminal=false
+Icon=/opt/Ball/img/ball.png
+Type=Application
+Categories=Game
+Categories=GTK;GNOME;Utility;
+
