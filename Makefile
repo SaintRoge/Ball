@@ -10,7 +10,7 @@ SRC = src/
 FLAGS = -std=c++11
 ROOTMESSAGE = "ACHTUNG ! You must be root to do it !"
 
-all: main.o 
+all: main.o game.o
 		$(CXX) $(FLAGS) $^ -o $(app) $(lib)
 		@echo "Finished building: $^"
 		@echo "Build finished. You are ready to use $(app) :-)"
